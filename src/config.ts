@@ -1,6 +1,6 @@
 const env = import.meta.env
 
-export const CANADA_TUTOR_ASSISTANT_ID = '194f277c-0911-4ca7-bba2-665036627bc0'
+export const CANADA_TUTOR_ASSISTANT_ID = '676c30e7-432d-446f-b1d8-b2883b46df65'
 
 export const ASSISTANTS = {
   canadaTutor: {
