@@ -1,0 +1,12 @@
+services:
+  aveda-tutor-canada:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-https://api.zerde.co/diaxel}
+        VITE_ASSISTANT_ID: ${VITE_ASSISTANT_ID:-194f277c-0911-4ca7-bba2-665036627bc0}
+    container_name: aveda-tutor-canada
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8094}:80"
