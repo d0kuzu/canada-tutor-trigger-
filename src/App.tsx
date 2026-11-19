@@ -123,9 +123,7 @@ export default function App() {
             </p>
 
             <div className="programs-strip">
-              <span className="program-pill">Barber</span>
-              <span className="program-pill">Cosmetology</span>
-              <span className="program-pill">Esthetician</span>
+              <span className="program-pill">Esthetician / Skin Care</span>
               <span className="program-pill">Nail Technician</span>
             </div>
 
