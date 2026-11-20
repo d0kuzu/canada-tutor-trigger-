@@ -125,6 +125,8 @@ export default function App() {
             <div className="programs-strip">
               <span className="program-pill">Esthetician / Skin Care</span>
               <span className="program-pill">Nail Technician</span>
+              <span className="program-pill">Barbering</span>
+              <span className="program-pill">Hair Styling</span>
             </div>
 
             <form className="form" onSubmit={(e) => void handleSubmit(e)}>
